@@ -1,0 +1,21 @@
+.container {
+  max-width: 170px;
+  padding: 0 11.5px;
+  @apply mx-auto;
+}
+
+.row {
+  @apply flex flex-wrap;
+}
+
+@media(min-width: 640px) {
+  .container {
+    max-width: 384px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .container {
+    max-width: 512px;
+  }
+}
